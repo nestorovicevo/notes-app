@@ -1,0 +1,46 @@
+.add-note-wrapper {
+    border: 1px solid #0dc544;
+    background: #F5F6FB;
+
+    .add-note-container {
+        padding: 30px;
+        .add-note-header {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 25px;
+            font-weight: bold;
+            color: #3b3b3b;
+            margin-bottom: 45px;
+        }
+        .add-note-fields {
+            .add-note-row {
+                margin-bottom: 30px;
+
+                label {
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-weight: bold;
+                    color: #3b3b3b;
+                }
+            }
+            }
+        }
+        .add-note-buttons {
+            display: flex;
+            justify-content: space-between;
+
+        }
+        .cancel-btn {
+            button {
+            border: none;
+            outline: none;
+            background: transparent;
+            cursor: pointer;
+                p {
+                color: #3b3b3b;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 15px;
+                text-decoration: underline;
+                font-weight: bold;
+                }
+        }
+    }
+}
